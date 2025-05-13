@@ -63,7 +63,7 @@ curl -X POST https://api.shapes.inc/v1/chat/completions \
 | Feature | Details |
 |---------|---------|
 | Endpoints | `/chat/completions` |
-| Rate Limits | 5 RPM (request increase [here](https://docs.google.com/forms/d/e/1FAIpQLScGLeRk6snViRPslXbbUaMDwubcBhmcJ6opq7wFvPEp-EbO3g/viewform)) |
+| Rate Limits | 5 RPM  |
 | Headers | `X-User-Id` for user identification, `X-Channel-Id` for conversation context |
 | Response Format | Standard OpenAI-compatible JSON response |
 
